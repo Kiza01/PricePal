@@ -1,0 +1,59 @@
+.catalogSelect {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.cat_div {
+    margin-bottom: 20px;
+}
+
+.cat_categor {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: hl, Arial, sans-serif;
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.cat_ul {
+    list-style-type: none;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: hl, Arial, sans-serif;
+    row-gap: 5px;
+}
+
+.cat_ul li:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.catalogMainTxt {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.catalogMain {
+    border-radius: 20px;
+    font-family: hl, Arial, sans-serif;
+}
+
+.divCategoriiObj:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+.catalogMainTop{
+    display: flex;
+    justify-content: space-between;
+}
+.catalogMainTop img{
+    width: 30px;
+    height: 30px;
+}
+.catalogMainTop img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}

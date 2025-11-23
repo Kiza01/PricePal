@@ -1,0 +1,105 @@
+header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 1%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: #005AFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputMain {
+    display: flex;
+    align-items: center;
+}
+
+.katalogButton {
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: #005AFF;
+    color: white;
+    font-size: 17px;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.katalogButton:hover {
+    opacity: 0.75;
+}
+
+.search {
+    outline: none;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    width: 20em;
+    padding: 3px;
+}
+
+.input {
+    background-color: #005AFF;
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 20px 3px 2px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.input img {
+
+    margin-left: 10px;
+    width: 30px;
+
+}
+
+.input img:hover {
+    opacity: 0.75;
+}
+
+.log {
+
+    display: flex;
+    width: 200px;
+    gap: 10%;
+}
+
+.log img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.log img:hover {
+    opacity: 0.75;
+}
+
+@media(max-width: 850px) {
+    .search{
+        width: 10em;
+    }
+    .katalogButton{
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+@media(max-width: 550px) {
+    .logo{
+        font-size: 10px;
+    }
+    .search{
+        width: 10em;
+    }
+    .katalogButton{
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+}

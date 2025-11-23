@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+@font-face {
+  font-family: "hl";
+  src: url("hd/GoodHeadPro.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  color: #005AFF;
+}

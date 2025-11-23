@@ -1,0 +1,62 @@
+.product {
+    display: flex;
+    width: 250px;
+    height: 450px;
+    flex-direction: column;
+    color: black;
+    font-family: hl, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.product:hover {
+    opacity: 0.75;
+}
+
+.img {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.price {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #005AFF;
+    display: inline-block;
+}
+
+.oldprice {
+    margin-left: 10px;
+    color: rgb(115, 117, 119);
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.skidka {
+    color: #005AFF;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.name {
+    font-weight: 400;
+}
+
+.asesPlan {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+
+.asesPlan img {
+    width: 5%;
+}
+
+.review {
+    margin-right: 5%;
+}
+

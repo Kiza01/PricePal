@@ -1,0 +1,199 @@
+.pay {
+
+    font-family: hl, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay_top img {
+    width: 30px;
+}
+
+.pay_top img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.pay_bottom {
+    margin-top: 25px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.pay_info {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay_info_name {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+
+.pay_img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.pay_star {
+    width: 15px;
+}
+
+.pay_ases {
+    color: #005AFF;
+    margin-left: 5px;
+}
+
+.pay_priceinfa {
+    margin-top: 20px;
+    width: 375px;
+    height: 125px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.pay_price {
+    font-size: 30px;
+    background-color: #005AFF;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.pay_old {
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.pay_pricenew {
+    margin-right: 5px;
+}
+
+.pay_oldprice {
+    text-decoration: line-through;
+}
+
+.pay_skidkaMain {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+}
+
+.pay_skidka {
+    background-color: #008cff;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.pay_korzina {
+    border: none;
+    color: white;
+    background-color: #005AFF;
+    width: 375px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.pay_pay {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #777777;
+    width: 375px;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 14px;
+
+}
+
+.pay_butt {
+    display: grid;
+}
+
+.pay_oMain {
+    display: grid;
+    margin-top: 20px;
+}
+
+.pay_oTxt {
+    font-weight: 1000;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.pay_oUser {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+@media(max-width: 900px) {
+.pay_img {
+    width: 300px;
+    height: 350px;
+}
+.pay_info {
+    margin-left: 20px;
+}
+.pay_info_name {
+    font-size: 30px;
+    margin-bottom: 5px;
+
+}
+.pay_priceinfa {
+    margin-top: 10px;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+}
+.pay_price {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.pay_korzina {
+    width: 300px;
+    font-size: 15px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.pay_pay {
+    width: 300px;
+    font-size: 15px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+}
+
+@media(max-width: 680px){
+    .pay_info {
+    margin-left: 0px;
+}
+.pay_bottom{
+    flex-wrap: wrap;
+}
+}
