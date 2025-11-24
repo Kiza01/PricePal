@@ -10431,7 +10431,7 @@ const tableCard =
                     }
                 ],
                 "country": "Германия",
-                "img": "https://www.ozon.ru/product/glyantsevaya-zashchitnaya-plenka-na-ekran-kamery-leica-q2-1934395612/?at=A6tGqxKAjcm2kmAgTZjnZ1MSzRkX3mTGDB9ZGiyvNMOw",
+                "img": "#",
                 "oldprice": "600000",
                 "price": "500000",
                 "review": "4.4"
@@ -10520,6 +10520,7 @@ for (let i in tableCard) {
     }
 }
 const searchDB = JSON.parse(JSON.stringify(search))
+
 
 
 
